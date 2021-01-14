@@ -17,7 +17,6 @@ def edit_interface_configuration(interface_name):
                             <interfaces xmlns="urn:ietf:params:xml:ns:yang:ietf-interfaces">
                                 <interface>
                                     <name>{interface_xml}</name>
-                                    <description>moo</description>
                                     <ipv4 xmlns="urn:ietf:params:xml:ns:yang:ietf-ip">
                                         <address>
                                             <ip>44.0.0.1</ip>
@@ -43,4 +42,3 @@ def main():
     
 if __name__ == "__main__":
     main()
-
